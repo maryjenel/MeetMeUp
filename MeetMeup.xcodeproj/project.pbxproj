@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6231584B1A76F45900B254DF /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231584A1A76F45900B254DF /* Member.m */; };
+		623158501A76F4A000B254DF /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231584F1A76F4A000B254DF /* MemberViewController.m */; };
+		623158531A77128800B254DF /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 623158521A77128800B254DF /* Topic.m */; };
 		62D5B2F11A6DA68600016F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B2F01A6DA68600016F5B /* main.m */; };
 		62D5B2F41A6DA68600016F5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B2F31A6DA68600016F5B /* AppDelegate.m */; };
 		62D5B2F71A6DA68600016F5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B2F61A6DA68600016F5B /* ViewController.m */; };
@@ -14,6 +17,10 @@
 		62D5B2FC1A6DA68600016F5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D5B2FB1A6DA68600016F5B /* Images.xcassets */; };
 		62D5B2FF1A6DA68600016F5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D5B2FD1A6DA68600016F5B /* LaunchScreen.xib */; };
 		62D5B30B1A6DA68600016F5B /* MeetMeupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B30A1A6DA68600016F5B /* MeetMeupTests.m */; };
+		62D5B3161A6DB7D600016F5B /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B3151A6DB7D600016F5B /* Events.m */; };
+		62D5B31F1A6DEE3200016F5B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B31E1A6DEE3200016F5B /* DetailViewController.m */; };
+		62D5B3221A6DFAD100016F5B /* DestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B3211A6DFAD100016F5B /* DestinationViewController.m */; };
+		62D5B3251A6E19DE00016F5B /* Comments.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5B3241A6E19DE00016F5B /* Comments.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		623158491A76F45900B254DF /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		6231584A1A76F45900B254DF /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		6231584E1A76F4A000B254DF /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemberViewController.h; path = ../MemberViewController.h; sourceTree = "<group>"; };
+		6231584F1A76F4A000B254DF /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemberViewController.m; path = ../MemberViewController.m; sourceTree = "<group>"; };
+		623158511A77128800B254DF /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		623158521A77128800B254DF /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
 		62D5B2EB1A6DA68600016F5B /* MeetMeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D5B2EF1A6DA68600016F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D5B2F01A6DA68600016F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +53,14 @@
 		62D5B3041A6DA68600016F5B /* MeetMeupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D5B3091A6DA68600016F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D5B30A1A6DA68600016F5B /* MeetMeupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeupTests.m; sourceTree = "<group>"; };
+		62D5B3141A6DB7D600016F5B /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		62D5B3151A6DB7D600016F5B /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		62D5B31D1A6DEE3200016F5B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		62D5B31E1A6DEE3200016F5B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		62D5B3201A6DFAD100016F5B /* DestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationViewController.h; sourceTree = "<group>"; };
+		62D5B3211A6DFAD100016F5B /* DestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationViewController.m; sourceTree = "<group>"; };
+		62D5B3231A6E19DE00016F5B /* Comments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comments.h; sourceTree = "<group>"; };
+		62D5B3241A6E19DE00016F5B /* Comments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comments.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6231584C1A76F45E00B254DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				623158511A77128800B254DF /* Topic.h */,
+				623158521A77128800B254DF /* Topic.m */,
+				62D5B3231A6E19DE00016F5B /* Comments.h */,
+				62D5B3241A6E19DE00016F5B /* Comments.m */,
+				623158491A76F45900B254DF /* Member.h */,
+				6231584A1A76F45900B254DF /* Member.m */,
+				62D5B3141A6DB7D600016F5B /* Events.h */,
+				62D5B3151A6DB7D600016F5B /* Events.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6231584D1A76F47800B254DF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62D5B2F51A6DA68600016F5B /* ViewController.h */,
+				62D5B2F61A6DA68600016F5B /* ViewController.m */,
+				62D5B31D1A6DEE3200016F5B /* DetailViewController.h */,
+				62D5B31E1A6DEE3200016F5B /* DetailViewController.m */,
+				6231584E1A76F4A000B254DF /* MemberViewController.h */,
+				6231584F1A76F4A000B254DF /* MemberViewController.m */,
+				62D5B3201A6DFAD100016F5B /* DestinationViewController.h */,
+				62D5B3211A6DFAD100016F5B /* DestinationViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		62D5B2E21A6DA68600016F5B = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +134,8 @@
 			children = (
 				62D5B2F21A6DA68600016F5B /* AppDelegate.h */,
 				62D5B2F31A6DA68600016F5B /* AppDelegate.m */,
-				62D5B2F51A6DA68600016F5B /* ViewController.h */,
-				62D5B2F61A6DA68600016F5B /* ViewController.m */,
+				6231584D1A76F47800B254DF /* View Controllers */,
+				6231584C1A76F45E00B254DF /* Classes */,
 				62D5B2F81A6DA68600016F5B /* Main.storyboard */,
 				62D5B2FB1A6DA68600016F5B /* Images.xcassets */,
 				62D5B2FD1A6DA68600016F5B /* LaunchScreen.xib */,
@@ -219,9 +270,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D5B31F1A6DEE3200016F5B /* DetailViewController.m in Sources */,
+				62D5B3161A6DB7D600016F5B /* Events.m in Sources */,
 				62D5B2F71A6DA68600016F5B /* ViewController.m in Sources */,
+				623158531A77128800B254DF /* Topic.m in Sources */,
+				6231584B1A76F45900B254DF /* Member.m in Sources */,
 				62D5B2F41A6DA68600016F5B /* AppDelegate.m in Sources */,
+				62D5B3251A6E19DE00016F5B /* Comments.m in Sources */,
 				62D5B2F11A6DA68600016F5B /* main.m in Sources */,
+				623158501A76F4A000B254DF /* MemberViewController.m in Sources */,
+				62D5B3221A6DFAD100016F5B /* DestinationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +470,7 @@
 				62D5B3101A6DA68600016F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62D5B3111A6DA68600016F5B /* Build configuration list for PBXNativeTarget "MeetMeupTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +479,7 @@
 				62D5B3131A6DA68600016F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
